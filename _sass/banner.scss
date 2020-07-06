@@ -1,0 +1,31 @@
+.banner {
+    padding-bottom: 1.5rem!important;
+    height: 350px;
+    background: rgb(64,122,252);
+    background: radial-gradient(circle, rgba(64,122,252,0.8799894957983193) 21%, rgba(49,145,227,1) 100%, rgba(120,158,207,1) 100%);    
+    box-shadow: 1px 1px 10px 0px #000000;
+    color: cornsilk;
+
+}
+    
+
+
+.h1, h1 {
+    font-size: 3rem;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    padding-top: 100px;
+    
+    line-break: strict;
+    margin-bottom: 0rem;
+}
+p {
+font-size: 1.4rem;
+
+
+}
+hr{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    /* border: 0; */
+    border-top: 1px solid rgb(241, 241, 241);
+}

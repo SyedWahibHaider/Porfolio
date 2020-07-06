@@ -1,0 +1,23 @@
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.container-intro { color: #1a1818; }
+
+.mu-title { display: inline; float: left; text-align: center; width: 100%; margin-bottom: 35px; padding: 0 25%; margin-top: 10px; }
+
+.navbar-brand { margin-right: 50rem; margin-left: 10rem; }
+
+.navbar-light .navbar-nav .nav-link { color: #1c3ed3; font-size: 1.2rem; font-weight: 400rem; }
+
+.bg-light { box-shadow: -1px 1px 0px #383333; }
+
+.banner { padding-bottom: 1.5rem !important; height: 350px; background: #407afc; background: radial-gradient(circle, rgba(64, 122, 252, 0.879989) 21%, #3191e3 100%, #789ecf 100%); box-shadow: 1px 1px 10px 0px #000000; color: cornsilk; }
+
+.h1, h1 { font-size: 3rem; font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system; padding-top: 100px; line-break: strict; margin-bottom: 0rem; }
+
+p { font-size: 1.4rem; }
+
+hr { margin-top: 0rem; margin-bottom: 1rem; /* border: 0; */ border-top: 1px solid #f1f1f1; }
+
+footer { background-color: #3191e3; color: white; }
+
+/*# sourceMappingURL=main.css.map */

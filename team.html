@@ -1,0 +1,62 @@
+---
+Title: Team
+layout: default
+---
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+
+<div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Meet The Team</h1>
+          <p>
+            Description........................................................
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container pb-6">
+    <div class="row">
+      {% for team in site.team %}
+      <div class="col-12 col-md-6 mb-1">
+        <div class="team team-summary">
+          {% if team.image %}
+          <div class="team-image">
+            <img
+              alt="{{ team.title }} logo"
+              class="img-fluid mb-2"
+              src="{{site.baseurl}}{{ team.image }}"
+            />
+          </div>
+          {% endif %}
+          <div class="team-meta">
+            <h2 class="team-name">{{ team.title }}</h2>
+            <p class="team-description">{{ team.jobtitle }}</p>
+            {% if team.linkedinurl %}
+            <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a> 
+            {% endif %}
+          </div>
+          <div class="team-content">{{ team.content }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="team-container">
+    <div class="team-row">
+      
+      <div class="col-4">
+        <img src="images/1.jpg" alt="img"/>
+        <div>
+         
+
+    </div>
+
+  </div>

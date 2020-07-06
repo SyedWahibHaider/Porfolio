@@ -1,0 +1,24 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
+.container-intro{
+color: rgb(26, 24, 24);
+
+}
+
+.mu-title {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 35px;
+  padding: 0 25%;
+  margin-top: 10px;
+  
+}
