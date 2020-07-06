@@ -5,3 +5,6 @@ collections:
   team:
     output: true
     permalink: /team/:path/
+    
+sass:
+  style: compact # possible values: nested expanded compact compressed
